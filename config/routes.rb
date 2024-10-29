@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get("/", { :controller => "omni", :action => "square"})
+  get("/", { :controller => "omni", :action => "square_new"})
 
   get("/square/new", { :controller => "omni", :action => "square_new"})
 
